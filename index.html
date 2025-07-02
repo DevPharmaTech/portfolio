@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +13,15 @@
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             color: #222;
         }
+
         header {
             background: #4f8cff;
             color: #fff;
             padding: 60px 0 40px 0;
             text-align: center;
-            box-shadow: 0 4px 20px rgba(79,140,255,0.1);
+            box-shadow: 0 4px 20px rgba(79, 140, 255, 0.1);
         }
+
         header img {
             width: 130px;
             height: 130px;
@@ -26,79 +29,93 @@
             border: 5px solid #fff;
             margin-bottom: 20px;
             object-fit: cover;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
         }
+
         header h1 {
             margin: 0;
             font-size: 2.8rem;
             letter-spacing: 2px;
         }
+
         header p {
             margin: 10px 0 0 0;
             font-size: 1.2rem;
             font-weight: 400;
             color: #e0eaff;
         }
+
         section {
             max-width: 900px;
             margin: 40px auto;
             background: #fff;
             border-radius: 18px;
-            box-shadow: 0 4px 24px rgba(79,140,255,0.08);
+            box-shadow: 0 4px 24px rgba(79, 140, 255, 0.08);
             padding: 40px 32px;
         }
+
         h2 {
             color: #4f8cff;
             margin-top: 0;
             font-size: 2rem;
             letter-spacing: 1px;
         }
+
         .about {
             display: flex;
             align-items: center;
             gap: 32px;
             flex-wrap: wrap;
         }
+
         .about-text {
             flex: 2;
             font-size: 1.1rem;
             line-height: 1.7;
         }
+
         .about-img {
             flex: 1;
             min-width: 180px;
         }
+
         .about-img img {
             width: 100%;
             border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(79,140,255,0.10);
+            box-shadow: 0 2px 12px rgba(79, 140, 255, 0.10);
         }
+
         .projects {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 24px;
             margin-top: 24px;
         }
+
         .project-card {
             background: #f5f7fa;
             border-radius: 12px;
             padding: 24px;
-            box-shadow: 0 2px 8px rgba(79,140,255,0.07);
+            box-shadow: 0 2px 8px rgba(79, 140, 255, 0.07);
             transition: transform 0.2s;
         }
+
         .project-card:hover {
             transform: translateY(-6px) scale(1.03);
         }
+
         .project-card h3 {
             margin: 0 0 10px 0;
             color: #4f8cff;
             font-size: 1.2rem;
         }
+
         .project-card p {
             margin: 0;
             color: #333;
             font-size: 1rem;
         }
+
         footer {
             text-align: center;
             padding: 24px 0;
@@ -106,10 +123,12 @@
             font-size: 1rem;
             margin-top: 40px;
         }
+
         @media (max-width: 700px) {
             section {
                 padding: 24px 8px;
             }
+
             .about {
                 flex-direction: column;
                 gap: 18px;
@@ -117,9 +136,10 @@
         }
     </style>
 </head>
+
 <body>
     <header>
-        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile Photo">
+        <img src="myphoto.jpg" alt="Profile Photo">
         <h1>Divyanshu Singh</h1>
         <p>Web Developer & Designer</p>
     </header>
@@ -129,33 +149,58 @@
         <div class="about">
             <div class="about-text">
                 <p>
-                    Hello! I'm Divyanshu, a passionate web developer with a love for creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript, and enjoy bringing ideas to life in the browser. Let's build something amazing together!
+                    Hello! I'm Divyanshu Singh. I have completed my B Pharma and am currently pursuing M Pharma. I am
+                    passionate about the pharmaceutical field and always eager to learn and grow. Alongside my studies,
+                    I enjoy exploring technology and web development.
                 </p>
             </div>
             <div class="about-img">
-                <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="About Me">
+                <img src="aboutme.jpg" alt="Pharmaceutical Laboratory">
             </div>
         </div>
     </section>
+
+  
+
+    <!-- ...existing code... -->
+    <!-- Remove the Projects section and About section above this if not already done -->
 
     <section>
-        <h2>Projects</h2>
+        <h2>Find Me Online</h2>
         <div class="projects">
             <div class="project-card">
-                <h3>Personal Blog</h3>
-                <p>A modern, responsive blog built with HTML, CSS, and JavaScript. Features a clean design and easy navigation.</p>
+                <h3>
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube"
+                        style="width:24px;vertical-align:middle;margin-right:8px;">YouTube
+                </h3>
+                <p>
+                    <a href="https://youtube.com/@risingunseenexplorer?si=YHrIq3rcB-O0KoWY" target="_blank"
+                        style="color:#4f8cff;text-decoration:underline;">Visit my YouTube Channel</a>
+                </p>
             </div>
             <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>My own portfolio site showcasing my skills, projects, and contact information. Designed with a focus on user experience.</p>
+                <h3>
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"
+                        style="width:24px;vertical-align:middle;margin-right:8px;">Instagram
+                </h3>
+                <p>
+                    <a href="https://www.instagram.com/" target="_blank"
+                        style="color:#4f8cff;text-decoration:underline;">Follow me on Instagram</a>
+                </p>
             </div>
             <div class="project-card">
-                <h3>Weather App</h3>
-                <p>A simple weather application that fetches real-time data using APIs and displays it in a user-friendly interface.</p>
+                <h3>
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"
+                        style="width:24px;vertical-align:middle;margin-right:8px;">LinkedIn
+                </h3>
+                <p>
+                    <a href="https://www.linkedin.com/in/divyanshu-singh-2bb660310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                        style="color:#4f8cff;text-decoration:underline;">Connect with me on LinkedIn</a>
+                </p>
             </div>
         </div>
     </section>
-
+    <!-- ...existing code... --
     <footer>
         &copy; 2024 Divyanshu Singh. All rights reserved.
     </footer>
