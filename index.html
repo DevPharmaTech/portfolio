@@ -125,13 +125,28 @@
         }
 
         @media (max-width: 700px) {
+            body {
+                padding: 8px !important;
+                box-sizing: border-box;
+            }
+
             section {
                 padding: 24px 8px;
             }
 
             .about {
                 flex-direction: column;
-                gap: 18px;
+                gap: 24px;
+                align-items: stretch;
+            }
+
+            .about-text {
+                font-size: 1rem;
+                padding-bottom: 8px;
+            }
+
+            .about-img {
+                margin-bottom: 8px;
             }
 
             .projects {
@@ -139,12 +154,31 @@
                 gap: 16px;
             }
 
+            .project-card {
+                padding: 16px;
+            }
+
             .project-card h3 {
                 font-size: 1rem;
+                word-break: break-word;
+                display: flex;
+                align-items: center;
+                gap: 8px;
             }
 
             .project-card p {
                 font-size: 0.95rem;
+                word-break: break-word;
+            }
+
+            header h1 {
+                font-size: 2rem;
+                word-break: break-word;
+            }
+
+            header p {
+                font-size: 1rem;
+                word-break: break-word;
             }
         }
     </style>
